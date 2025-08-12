@@ -1,14 +1,15 @@
 <template>
   <App>
 
-    <MyHome />
+    <!-- <MyHome /> -->
+     <DynamicForm />
   </App>
 </template>
   
 <script setup lang='ts'>
-import 'ant-design-vue/dist/reset.css';
-import MyHome from './components/MyHome.vue';
 import { App } from 'ant-design-vue';
+import 'ant-design-vue/dist/reset.css';
+import DynamicForm from './components/dynamicForm.vue';
 
   
 </script>
